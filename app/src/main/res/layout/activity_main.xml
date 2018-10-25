@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nfrc.verticaldraglistview.VerticalDragListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nfrc.verticaldraglistview.MainActivity"
+
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="后     面                       "
+        android:background="#2EC0B7"
+        android:gravity="center"
+
+        />
+
+
+    <ListView
+        android:id="@+id/mListiew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000ff"
+
+
+        />
+
+
+</com.nfrc.verticaldraglistview.VerticalDragListView>
